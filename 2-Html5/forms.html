@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formlar</title>
+</head>
+
+<body>
+
+
+    <form action="/Home/Register">
+
+        <p>
+            Ad <input type="text" name="Ad" placeholder="Adınızı girin" required>
+        </p>
+        <p>
+            Soyad <input type="text" name="Soyad" placeholder="Soyadınızı girin" required>
+        </p>
+        <p>
+            Email <input type="text" name="Email" placeholder="Email adresinizi girin" required>
+        </p>
+        <p>
+            Beni Hatırla <input type="checkbox" name="Beni Hatırla">
+        </p>
+        <p>
+            Erkek <input type="radio" name="cinsiyet" required>
+            Kadın <input type="radio" name="cinsiyet" required>
+        </p>
+        <p>
+            Hobiler <br>
+            Sinema <input type="checkbox" name="hobiler">
+            Kitap Okumak <input type="checkbox" name="hobiler">
+            Spor <input type="checkbox" name="hobiler">
+        </p>
+        <p>
+            <select name="Şehir">
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+            </select>
+        </p>
+        <p>
+            <select multiple name="Şehirler">
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Kaydet">
+
+        </p>
+    </form>
+</body>
+
+</html>
+
+<!--
+
+03.05.2020
+FORMS
+<form>
+type (text,checkbox,radio,sumbit)
+name(ad,soyad,hobiler,cinsiyet)
+placeholder (adınızı giriniz)
+value
+<select>
+<option>
+multiple
+-->
