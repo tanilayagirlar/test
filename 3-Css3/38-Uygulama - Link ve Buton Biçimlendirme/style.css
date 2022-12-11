@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #f1f1f1;
+    font-size: 14px;
+    color: #333;
+    line-height: 150%;
+}
+
+#container {
+    width: 1190px;
+    margin: 15px auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+#blog-post-container {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    color: black;
+    float: left;
+}
+
+.blog-post {
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333;
+    text-align: justify;
+}
+
+.box {
+    background: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
+}
+
+#other {
+    margin-top: 15px;
+    display: inline-block;
+    padding-left: 20px;
+    width: 25%;
+}
+
+.other-post {
+
+    background: white;
+}
+
+#share i {
+    padding: 3px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+#share h2 {
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#share a {
+    color: #333;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+#share a:hover {
+
+    opacity: 0.6;
+}
+
+
+.other-post li {
+    list-style: none;
+
+}
+
+.other-post li i {
+    padding-right: 10px;
+
+}
+
+.box h2 {
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+
+
+}
+
+.tags {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.tags a {
+    background: tomato;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.author {
+    border-top: 1px solid RGB(0, 0, 0, .250);
+    padding-top: 10px;
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.author-text {
+    margin-top: 10px;
+}
+
+.date {
+    color: #333;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+}

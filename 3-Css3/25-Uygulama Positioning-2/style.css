@@ -1,0 +1,30 @@
+#container {
+    width: 1190px;
+}
+
+#blog {
+    position: relative;
+    color: black;
+    width: 75%;
+    float: left;
+}
+
+#other {
+    position: fixed;
+    right: 0;
+    top: 10px;
+    color: black;
+    width: 25%;
+    float: left;
+}
+
+.author {
+    color: black;
+    width: 150px;
+}
+
+#date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

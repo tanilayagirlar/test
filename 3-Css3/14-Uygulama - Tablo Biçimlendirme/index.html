@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Styling Table</title>
+	<style>
+		table {
+			width: 100%;
+			border: 1px solid #DCDCDC;
+			border-collapse: collapse;
+		}
+
+		.table-blue th {
+			color: white;
+			background-color: #1E90FF;
+		}
+
+		.table-green th {
+			color: white;
+			background-color: #228B22;
+		}
+
+		table th {
+			text-align: left;
+
+		}
+
+		table td,
+		table th {
+			padding: 6px;
+			border: 1px solid #DCDCDC;
+			height: 40px;
+		}
+
+		table tr:nth-child(even) {
+			background-color: #DCDCDC;
+		}
+
+		table tr:hover {
+			background-color: #A9A9A9;
+		}
+	</style>
+</head>
+
+<body>
+	<table class="table-blue">
+
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>Production 1</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+			<tr>
+				<td>Production 2</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+			<tr>
+				<td>Production 3</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+			<tr>
+				<td>Production 4</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<table class="table-green">
+
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<td>Production 1</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+			<tr>
+				<td>Production 2</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+			<tr>
+				<td>Production 3</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+			<tr>
+				<td>Production 4</td>
+				<td>Lorem ipsum.</td>
+				<td>10$</td>
+
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>

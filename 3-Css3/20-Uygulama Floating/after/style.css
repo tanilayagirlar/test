@@ -1,0 +1,20 @@
+#container {
+  width: 1190px;
+}
+
+#blog {
+  color: black;
+  width: 75%;
+  float: left;
+}
+
+#other {
+  color: black;
+  width: 25%;
+  float: left;
+}
+
+.author {
+  color: black;
+  width: 150px;
+}

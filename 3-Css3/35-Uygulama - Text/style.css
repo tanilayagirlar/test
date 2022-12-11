@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #f1f1f1;
+    font-size: 14px;
+    color: #333;
+    line-height: 150%;
+}
+
+#container {
+    width: 1190px;
+    margin: 15px auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+
+}
+
+#blog-post-container {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    color: black;
+    float: left;
+}
+
+.blog-post {
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333;
+    text-align: justify;
+}
+
+.box {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
+}
+
+#other {
+    margin-top: 15px;
+    display: inline-block;
+    padding-left: 20px;
+    width: 25%;
+}
+
+.other-post {
+
+    background: white;
+}
+
+.author {
+    border-top: 1px solid RGB(0, 0, 0, .250);
+    padding-top: 10px;
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.author-text {
+    margin-top: 10px;
+}
+
+.date {
+    color: #333;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+}
+
+#share a {
+    color: #333;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+
+#share a:hover {
+
+    opacity: 0.6;
+}
